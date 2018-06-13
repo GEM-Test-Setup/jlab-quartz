@@ -17,7 +17,7 @@ int quartzdata2()
 {
 	gSystem->Load("liblegolas"); 
 	
-	gSystem->Load("libpmonitor"); // For Marisa's PC only
+	//gSystem->Load("libpmonitor"); // For Marisa's PC only
 	
   double integral; // raw signal integral over time
   double intePlastic1,intePlastic2;
