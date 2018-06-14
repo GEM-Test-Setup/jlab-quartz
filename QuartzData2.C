@@ -134,7 +134,6 @@ int QuartzData2()
 	
 	dummyno = Form("dummy%d.root",nofile);
 	
- 	// TString name = "dummy" + nofile + ".root";
 	TCanvas *plot = new TCanvas("plot","plot",800,600);
   plot->Divide(1,3);
   plot->cd(1);
