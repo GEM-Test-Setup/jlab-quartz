@@ -13,7 +13,7 @@
 
 using namespace std;
 
-int quartzdata2()
+int QuartzData2()
 {
 	gSystem->Load("liblegolas"); 
 	
