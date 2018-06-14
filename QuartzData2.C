@@ -107,6 +107,12 @@ int QuartzData2()
 			pedPlas1=(h2->Integral(pedPlasMin1,pedPlasMax1))*(sigPlasMax1-sigPlasMin1)/(pedPlasMax1-pedPlasMin1);
 			pedPlas2=(h3->Integral(pedPlasMin1,pedPlasMax1))*(sigPlasMax1-sigPlasMin1)/(pedPlasMax1-pedPlasMin1);
 			
+			//intePlastic1=-1*intePlastic1;//No '-1*' because these signals are dynode signals
+		    	//intePlastic2=-1*intePlastic2;
+		 
+		    	//pedPlas1=-1*pedPlas1;
+            		//pedPlas2=-1*pedPlas2;
+			
 			charge=(integral-pedestal);
 			chPlas1=(intePlastic1-pedPlas1);
 			chPlas2=(intePlastic2-pedPlas2);
